@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="VbCal" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\VbCal.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="CapstoneProjectVB.My.MySettings" SettingsPropertyName="VbCalConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.StoredProcedure1" Method="StoredProcedure1">
+    <Parameter Name="param1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="param2" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="StoredProcedure1Result">
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DayOfYear" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Day" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Week" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Month" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KindOfDay" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

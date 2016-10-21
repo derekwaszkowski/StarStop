@@ -1,0 +1,17 @@
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.exe.config
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\VbCal.mdf
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\VbCal_log.ldf
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.exe
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.pdb
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.xml
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.DataEntry.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Login.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Resources.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.OutPut.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbproj.GenerateResource.Cache
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.exe
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.xml
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.pdb
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.ContactHours.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Calculation.resources
+C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbprojResolveAssemblyReference.cache
