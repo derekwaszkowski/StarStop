@@ -58,14 +58,14 @@ Partial Public Class DataClasses1DataContext
 		OnCreated
 	End Sub
 	
-	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.StoredProcedure1")>  _
-	Public Function StoredProcedure1(<Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Int")> ByVal param1 As System.Nullable(Of Integer), <Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Date")> ByVal param2 As System.Nullable(Of Date)) As ISingleResult(Of StoredProcedure1Result)
+	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.StoredProcedure2")>  _
+	Public Function StoredProcedure2(<Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Int")> ByVal param1 As System.Nullable(Of Integer), <Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Date")> ByVal param2 As System.Nullable(Of Date)) As ISingleResult(Of StoredProcedure2Result)
 		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), param1, param2)
-		Return CType(result.ReturnValue,ISingleResult(Of StoredProcedure1Result))
+		Return CType(result.ReturnValue,ISingleResult(Of StoredProcedure2Result))
 	End Function
 End Class
 
-Partial Public Class StoredProcedure1Result
+Partial Public Class StoredProcedure2Result
 	
 	Private _Date As Date
 	

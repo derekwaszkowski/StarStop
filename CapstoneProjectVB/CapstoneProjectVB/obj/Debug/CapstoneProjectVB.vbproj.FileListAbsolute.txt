@@ -15,6 +15,7 @@ C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\Cap
 C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.ContactHours.resources
 C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Calculation.resources
 C:\Users\Goat\Desktop\Capstone\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.exe.config
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.exe
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.xml
@@ -32,3 +33,22 @@ C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Resources.resources
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.OutPut.resources
 C:\Users\Aaron\Documents\GitHub\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbproj.GenerateResource.Cache
+=======
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.exe.config
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.exe
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.xml
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.pdb
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\VbCal.mdf
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\VbCal_log.ldf
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.exe
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.pdb
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\bin\Debug\CapstoneProjectVB.xml
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbprojResolveAssemblyReference.cache
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Calculation.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.ContactHours.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.DataEntry.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Login.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.Resources.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.OutPut.resources
+C:\Users\Goat\Desktop\Capstone\StarStop\CapstoneProjectVB\CapstoneProjectVB\obj\Debug\CapstoneProjectVB.vbproj.GenerateResource.Cache
+>>>>>>> 8d3c09268a4a0588620117b273861336966f4a74

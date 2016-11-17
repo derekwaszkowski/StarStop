@@ -19,12 +19,6 @@ namespace StarStop
         public Form1()
         {
             InitializeComponent();
-            //addSemester
-            Form2 addSemester = new Form2();
-            addSemester.Show();
-            //modifySemester
-            Form3 modifySemester = new Form3();
-            modifySemester.Show();
 
             days = new Label[] {mondayDay, tuesdayDay, wednesdayDay,
                    thursdayDay, fridayDay, SaturdayDay};
@@ -41,7 +35,16 @@ namespace StarStop
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //addSemester
+            Form2 addSemester = new Form2();
+            addSemester.Show();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //modifySemester
+            Form3 modifySemester = new Form3();
+            modifySemester.Show();
         }
     }
 }

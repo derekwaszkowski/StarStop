@@ -34,14 +34,14 @@ Partial Class OutPut
         '
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(51, 67)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 67)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(414, 192)
+        Me.DataGridView1.Size = New System.Drawing.Size(693, 192)
         Me.DataGridView1.TabIndex = 7
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(169, 265)
+        Me.Button1.Location = New System.Drawing.Point(275, 265)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(161, 23)
         Me.Button1.TabIndex = 8
@@ -51,9 +51,9 @@ Partial Class OutPut
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, -3)
+        Me.PictureBox1.Location = New System.Drawing.Point(45, -3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(511, 64)
+        Me.PictureBox1.Size = New System.Drawing.Size(616, 64)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
@@ -62,7 +62,7 @@ Partial Class OutPut
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(509, 357)
+        Me.ClientSize = New System.Drawing.Size(717, 357)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
