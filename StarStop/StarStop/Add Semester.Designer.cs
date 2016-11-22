@@ -144,7 +144,7 @@
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Add Semester";
             this.ResumeLayout(false);
             this.PerformLayout();
 

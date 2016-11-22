@@ -46,5 +46,12 @@ namespace StarStop
             Form3 modifySemester = new Form3();
             modifySemester.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Manage Classes
+            Form4 manageClasses = new Form4();
+            manageClasses.Show();
+        }
     }
 }
