@@ -18,7 +18,6 @@ namespace StarStop
             Application.SetCompatibleTextRenderingDefault(false);
             mainForm = new Form1();
             Application.Run(mainForm);
-
         }
 
         public static Form1 mainForm;

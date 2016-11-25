@@ -47,11 +47,24 @@ namespace StarStop
             modifySemester.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
         {
-            //Manage Classes
-            Form4 manageClasses = new Form4();
-            manageClasses.Show();
+
+        }
+
+        // Calculate button on-click event
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Check if the user has selected a semester first
+            if (mondayDay.Text != "-")
+            {
+                int classTime = 0;
+
+            }
+            else
+            {
+                //To-do: Add message to the user to select a valid semester.
+            }
         }
     }
 }
