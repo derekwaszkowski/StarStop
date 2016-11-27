@@ -516,6 +516,7 @@
             this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dateTimePicker1.Location = new System.Drawing.Point(520, 176);
             this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.ShowUpDown = true;
             this.dateTimePicker1.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker1.TabIndex = 58;
             this.dateTimePicker1.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
@@ -527,6 +528,7 @@
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker2.Location = new System.Drawing.Point(520, 207);
             this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.ShowUpDown = true;
             this.dateTimePicker2.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker2.TabIndex = 59;
             this.dateTimePicker2.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
@@ -538,6 +540,7 @@
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker3.Location = new System.Drawing.Point(520, 237);
             this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.ShowUpDown = true;
             this.dateTimePicker3.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker3.TabIndex = 60;
             this.dateTimePicker3.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
@@ -550,6 +553,7 @@
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker4.Location = new System.Drawing.Point(520, 269);
             this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.ShowUpDown = true;
             this.dateTimePicker4.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker4.TabIndex = 61;
             this.dateTimePicker4.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
@@ -561,6 +565,7 @@
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker5.Location = new System.Drawing.Point(520, 298);
             this.dateTimePicker5.Name = "dateTimePicker5";
+            this.dateTimePicker5.ShowUpDown = true;
             this.dateTimePicker5.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker5.TabIndex = 62;
             this.dateTimePicker5.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
@@ -572,6 +577,7 @@
             this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker6.Location = new System.Drawing.Point(520, 331);
             this.dateTimePicker6.Name = "dateTimePicker6";
+            this.dateTimePicker6.ShowUpDown = true;
             this.dateTimePicker6.Size = new System.Drawing.Size(119, 23);
             this.dateTimePicker6.TabIndex = 63;
             this.dateTimePicker6.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
