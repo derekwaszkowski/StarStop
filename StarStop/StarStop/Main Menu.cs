@@ -64,6 +64,7 @@ namespace StarStop
             else
             {
                 //To-do: Add message to the user to select a valid semester.
+                MessageBox.Show("Please Add Valid Semester Type");
             }
         }
     }

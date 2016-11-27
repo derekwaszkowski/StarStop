@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,23 +73,15 @@
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 44);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Star Stop";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 81);
+            this.label2.Location = new System.Drawing.Point(22, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 17);
             this.label2.TabIndex = 1;
@@ -158,7 +150,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(157, 141);
+            this.label9.Location = new System.Drawing.Point(156, 156);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 17);
             this.label9.TabIndex = 7;
@@ -168,7 +160,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(267, 141);
+            this.label10.Location = new System.Drawing.Point(277, 156);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(108, 17);
             this.label10.TabIndex = 8;
@@ -328,7 +320,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(386, 141);
+            this.label26.Location = new System.Drawing.Point(391, 156);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(111, 17);
             this.label26.TabIndex = 24;
@@ -348,7 +340,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(534, 141);
+            this.label28.Location = new System.Drawing.Point(534, 156);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(83, 17);
             this.label28.TabIndex = 32;
@@ -357,9 +349,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(537, 14);
+            this.button1.Location = new System.Drawing.Point(417, 125);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 28);
+            this.button1.Size = new System.Drawing.Size(143, 28);
             this.button1.TabIndex = 51;
             this.button1.Text = "Modify Calendar";
             this.button1.UseVisualStyleBackColor = true;
@@ -390,18 +382,31 @@
             // 
             this.comboBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(160, 78);
+            this.comboBox25.Items.AddRange(new object[] {
+            "Fall Semester 16 Weeks",
+            "Fall Mini-Mester 1",
+            "Fall Mini-Mester 2",
+            "Spring Semester 16 Weeks",
+            "Spring Mini-Mester 1",
+            "Spring Mini-Mester 2",
+            "Summer Semester 10 Weeks",
+            "Summer 8 Week Session 1",
+            "Summer 8 Week Session 2",
+            "Summer 5 Week Session 1",
+            "Summer 5 Week Session 2",
+            "Summer 4 Week Boot Camp"});
+            this.comboBox25.Location = new System.Drawing.Point(159, 129);
             this.comboBox25.Name = "comboBox25";
             this.comboBox25.Size = new System.Drawing.Size(210, 24);
             this.comboBox25.TabIndex = 55;
-            this.comboBox25.Text = "Fall Semester (16 Week)";
+            this.comboBox25.Text = "-Select-";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(537, 48);
+            this.button3.Location = new System.Drawing.Point(584, 125);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(177, 28);
+            this.button3.Size = new System.Drawing.Size(130, 28);
             this.button3.TabIndex = 56;
             this.button3.Text = "Add Semester";
             this.button3.UseVisualStyleBackColor = true;
@@ -571,11 +576,22 @@
             this.dateTimePicker6.TabIndex = 63;
             this.dateTimePicker6.Value = new System.DateTime(2016, 11, 25, 12, 0, 0, 0);
             // 
+            // PictureBox1
+            // 
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(-3, -1);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(732, 111);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PictureBox1.TabIndex = 64;
+            this.PictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 42F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(726, 648);
+            this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.dateTimePicker6);
             this.Controls.Add(this.dateTimePicker5);
             this.Controls.Add(this.dateTimePicker4);
@@ -620,11 +636,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(10);
             this.Name = "Form1";
             this.Text = "Main Menu";
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -632,7 +648,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -679,6 +694,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.DateTimePicker dateTimePicker5;
         private System.Windows.Forms.DateTimePicker dateTimePicker6;
+        internal System.Windows.Forms.PictureBox PictureBox1;
     }
 }
 
