@@ -29,6 +29,10 @@ namespace StarStop
             listBox.Items.Add(semester);
 
             DayUtility.updateDays(startDate.Value, endDate.Value, new List<DateTime>());
+
+
+            //hide form upon button click
+            this.Hide();
         }
     }
 }

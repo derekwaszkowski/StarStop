@@ -24,6 +24,10 @@ namespace StarStop
 
             listBox1.Items.Add(holiday);
             holidayList.Add(dateTimePicker1.Value.Date);
+
+
+            //hide form upon button click
+            this.Hide();
         }
 
         public List<DateTime> holidayList;
