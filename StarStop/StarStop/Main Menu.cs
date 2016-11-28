@@ -60,6 +60,9 @@ namespace StarStop
             {
                 int classTime = 0;
 
+                classTime = Convert.ToInt32(comboBox1.SelectedItem) * Convert.ToInt32(mondayDay.Text);
+
+                richTextBox1.AppendText("Course Time: " + classTime);
             }
             else
             {
@@ -67,5 +70,6 @@ namespace StarStop
                 MessageBox.Show("Please Add Valid Semester Type");
             }
         }
-    }
+
+     }
 }
